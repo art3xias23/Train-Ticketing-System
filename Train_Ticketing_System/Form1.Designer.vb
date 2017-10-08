@@ -29,27 +29,27 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.GroupBox11 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.rb7 = New System.Windows.Forms.RadioButton()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.rb6 = New System.Windows.Forms.RadioButton()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
+        Me.rb4 = New System.Windows.Forms.RadioButton()
+        Me.rb5 = New System.Windows.Forms.RadioButton()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.rb1 = New System.Windows.Forms.RadioButton()
+        Me.rb3 = New System.Windows.Forms.RadioButton()
+        Me.rb2 = New System.Windows.Forms.RadioButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.Label63 = New System.Windows.Forms.Label()
+        Me.lblTotal23 = New System.Windows.Forms.Label()
         Me.lblSubTotal = New System.Windows.Forms.Label()
         Me.lblDisplay = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.lblTax = New System.Windows.Forms.Label()
-        Me.lblTax1 = New System.Windows.Forms.Label()
-        Me.lblSubtotal2 = New System.Windows.Forms.Label()
+        Me.lblTax23 = New System.Windows.Forms.Label()
+        Me.lblSubtotal23 = New System.Windows.Forms.Label()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
@@ -167,26 +167,26 @@ Partial Class Form1
         '
         'GroupBox11
         '
-        Me.GroupBox11.Controls.Add(Me.RadioButton9)
+        Me.GroupBox11.Controls.Add(Me.rb7)
         Me.GroupBox11.Controls.Add(Me.Label9)
         Me.GroupBox11.Controls.Add(Me.Label10)
-        Me.GroupBox11.Controls.Add(Me.RadioButton11)
+        Me.GroupBox11.Controls.Add(Me.rb6)
         Me.GroupBox11.Location = New System.Drawing.Point(368, 12)
         Me.GroupBox11.Name = "GroupBox11"
         Me.GroupBox11.Size = New System.Drawing.Size(142, 198)
         Me.GroupBox11.TabIndex = 9
         Me.GroupBox11.TabStop = False
         '
-        'RadioButton9
+        'rb7
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(6, 127)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(62, 24)
-        Me.RadioButton9.TabIndex = 8
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "Yes"
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.rb7.AutoSize = True
+        Me.rb7.Location = New System.Drawing.Point(6, 127)
+        Me.rb7.Name = "rb7"
+        Me.rb7.Size = New System.Drawing.Size(62, 24)
+        Me.rb7.TabIndex = 8
+        Me.rb7.TabStop = True
+        Me.rb7.Text = "Yes"
+        Me.rb7.UseVisualStyleBackColor = True
         '
         'Label9
         '
@@ -208,22 +208,22 @@ Partial Class Form1
         Me.Label10.TabIndex = 3
         Me.Label10.Text = "Class"
         '
-        'RadioButton11
+        'rb6
         '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(16, 61)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(62, 24)
-        Me.RadioButton11.TabIndex = 8
-        Me.RadioButton11.TabStop = True
-        Me.RadioButton11.Text = "Yes"
-        Me.RadioButton11.UseVisualStyleBackColor = True
+        Me.rb6.AutoSize = True
+        Me.rb6.Location = New System.Drawing.Point(16, 61)
+        Me.rb6.Name = "rb6"
+        Me.rb6.Size = New System.Drawing.Size(62, 24)
+        Me.rb6.TabIndex = 8
+        Me.rb6.TabStop = True
+        Me.rb6.Text = "Yes"
+        Me.rb6.UseVisualStyleBackColor = True
         '
         'GroupBox7
         '
         Me.GroupBox7.Controls.Add(Me.Label8)
-        Me.GroupBox7.Controls.Add(Me.RadioButton6)
-        Me.GroupBox7.Controls.Add(Me.RadioButton10)
+        Me.GroupBox7.Controls.Add(Me.rb4)
+        Me.GroupBox7.Controls.Add(Me.rb5)
         Me.GroupBox7.Location = New System.Drawing.Point(154, 12)
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Size = New System.Drawing.Size(207, 198)
@@ -240,34 +240,34 @@ Partial Class Form1
         Me.Label8.TabIndex = 3
         Me.Label8.Text = "Ticket Type"
         '
-        'RadioButton6
+        'rb4
         '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(34, 82)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(78, 24)
-        Me.RadioButton6.TabIndex = 8
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Single"
-        Me.RadioButton6.UseVisualStyleBackColor = True
+        Me.rb4.AutoSize = True
+        Me.rb4.Location = New System.Drawing.Point(34, 82)
+        Me.rb4.Name = "rb4"
+        Me.rb4.Size = New System.Drawing.Size(78, 24)
+        Me.rb4.TabIndex = 8
+        Me.rb4.TabStop = True
+        Me.rb4.Text = "Single"
+        Me.rb4.UseVisualStyleBackColor = True
         '
-        'RadioButton10
+        'rb5
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(34, 121)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(83, 24)
-        Me.RadioButton10.TabIndex = 11
-        Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "Return"
-        Me.RadioButton10.UseVisualStyleBackColor = True
+        Me.rb5.AutoSize = True
+        Me.rb5.Location = New System.Drawing.Point(34, 121)
+        Me.rb5.Name = "rb5"
+        Me.rb5.Size = New System.Drawing.Size(83, 24)
+        Me.rb5.TabIndex = 11
+        Me.rb5.TabStop = True
+        Me.rb5.Text = "Return"
+        Me.rb5.UseVisualStyleBackColor = True
         '
         'GroupBox5
         '
         Me.GroupBox5.Controls.Add(Me.Label3)
-        Me.GroupBox5.Controls.Add(Me.RadioButton1)
-        Me.GroupBox5.Controls.Add(Me.RadioButton3)
-        Me.GroupBox5.Controls.Add(Me.RadioButton4)
+        Me.GroupBox5.Controls.Add(Me.rb1)
+        Me.GroupBox5.Controls.Add(Me.rb3)
+        Me.GroupBox5.Controls.Add(Me.rb2)
         Me.GroupBox5.Location = New System.Drawing.Point(6, 12)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(142, 198)
@@ -284,48 +284,48 @@ Partial Class Form1
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Class"
         '
-        'RadioButton1
+        'rb1
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(34, 82)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(100, 24)
-        Me.RadioButton1.TabIndex = 8
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Standard"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.rb1.AutoSize = True
+        Me.rb1.Location = New System.Drawing.Point(34, 82)
+        Me.rb1.Name = "rb1"
+        Me.rb1.Size = New System.Drawing.Size(100, 24)
+        Me.rb1.TabIndex = 8
+        Me.rb1.TabStop = True
+        Me.rb1.Text = "Standard"
+        Me.rb1.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'rb3
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(34, 160)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(108, 24)
-        Me.RadioButton3.TabIndex = 10
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "First Class"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.rb3.AutoSize = True
+        Me.rb3.Location = New System.Drawing.Point(34, 160)
+        Me.rb3.Name = "rb3"
+        Me.rb3.Size = New System.Drawing.Size(108, 24)
+        Me.rb3.TabIndex = 10
+        Me.rb3.TabStop = True
+        Me.rb3.Text = "First Class"
+        Me.rb3.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'rb2
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(34, 121)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(100, 24)
-        Me.RadioButton4.TabIndex = 11
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Standard"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.rb2.AutoSize = True
+        Me.rb2.Location = New System.Drawing.Point(34, 121)
+        Me.rb2.Name = "rb2"
+        Me.rb2.Size = New System.Drawing.Size(100, 24)
+        Me.rb2.TabIndex = 11
+        Me.rb2.TabStop = True
+        Me.rb2.Text = "Economy"
+        Me.rb2.UseVisualStyleBackColor = True
         '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.Label63)
+        Me.GroupBox4.Controls.Add(Me.lblTotal23)
         Me.GroupBox4.Controls.Add(Me.lblSubTotal)
         Me.GroupBox4.Controls.Add(Me.lblDisplay)
         Me.GroupBox4.Controls.Add(Me.Label11)
         Me.GroupBox4.Controls.Add(Me.lblTax)
-        Me.GroupBox4.Controls.Add(Me.lblTax1)
-        Me.GroupBox4.Controls.Add(Me.lblSubtotal2)
+        Me.GroupBox4.Controls.Add(Me.lblTax23)
+        Me.GroupBox4.Controls.Add(Me.lblSubtotal23)
         Me.GroupBox4.Controls.Add(Me.Button18)
         Me.GroupBox4.Controls.Add(Me.Button17)
         Me.GroupBox4.Controls.Add(Me.Button16)
@@ -350,14 +350,14 @@ Partial Class Form1
         Me.GroupBox4.TabIndex = 2
         Me.GroupBox4.TabStop = False
         '
-        'Label63
+        'lblTotal23
         '
-        Me.Label63.BackColor = System.Drawing.Color.White
-        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Label63.Location = New System.Drawing.Point(205, 121)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(178, 53)
-        Me.Label63.TabIndex = 23
+        Me.lblTotal23.BackColor = System.Drawing.Color.White
+        Me.lblTotal23.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.lblTotal23.Location = New System.Drawing.Point(205, 251)
+        Me.lblTotal23.Name = "lblTotal23"
+        Me.lblTotal23.Size = New System.Drawing.Size(178, 53)
+        Me.lblTotal23.TabIndex = 23
         '
         'lblSubTotal
         '
@@ -367,6 +367,7 @@ Partial Class Form1
         Me.lblSubTotal.Name = "lblSubTotal"
         Me.lblSubTotal.Size = New System.Drawing.Size(178, 53)
         Me.lblSubTotal.TabIndex = 22
+        Me.lblSubTotal.Text = "SubTotal"
         '
         'lblDisplay
         '
@@ -387,6 +388,7 @@ Partial Class Form1
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(178, 53)
         Me.Label11.TabIndex = 20
+        Me.Label11.Text = "Total"
         '
         'lblTax
         '
@@ -396,24 +398,25 @@ Partial Class Form1
         Me.lblTax.Name = "lblTax"
         Me.lblTax.Size = New System.Drawing.Size(178, 53)
         Me.lblTax.TabIndex = 19
+        Me.lblTax.Text = "Tax"
         '
-        'lblTax1
+        'lblTax23
         '
-        Me.lblTax1.BackColor = System.Drawing.Color.White
-        Me.lblTax1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.lblTax1.Location = New System.Drawing.Point(205, 251)
-        Me.lblTax1.Name = "lblTax1"
-        Me.lblTax1.Size = New System.Drawing.Size(178, 53)
-        Me.lblTax1.TabIndex = 18
+        Me.lblTax23.BackColor = System.Drawing.Color.White
+        Me.lblTax23.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.lblTax23.Location = New System.Drawing.Point(205, 186)
+        Me.lblTax23.Name = "lblTax23"
+        Me.lblTax23.Size = New System.Drawing.Size(178, 53)
+        Me.lblTax23.TabIndex = 18
         '
-        'lblSubtotal2
+        'lblSubtotal23
         '
-        Me.lblSubtotal2.BackColor = System.Drawing.Color.White
-        Me.lblSubtotal2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.lblSubtotal2.Location = New System.Drawing.Point(205, 186)
-        Me.lblSubtotal2.Name = "lblSubtotal2"
-        Me.lblSubtotal2.Size = New System.Drawing.Size(178, 53)
-        Me.lblSubtotal2.TabIndex = 17
+        Me.lblSubtotal23.BackColor = System.Drawing.Color.White
+        Me.lblSubtotal23.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.lblSubtotal23.Location = New System.Drawing.Point(205, 121)
+        Me.lblSubtotal23.Name = "lblSubtotal23"
+        Me.lblSubtotal23.Size = New System.Drawing.Size(178, 53)
+        Me.lblSubtotal23.TabIndex = 17
         '
         'Button18
         '
@@ -884,27 +887,27 @@ Partial Class Form1
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents Label2 As Label
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents rb2 As RadioButton
+    Friend WithEvents rb3 As RadioButton
+    Friend WithEvents rb1 As RadioButton
     Friend WithEvents Label3 As Label
     Friend WithEvents GroupBox6 As GroupBox
     Friend WithEvents Label5 As Label
     Friend WithEvents GroupBox11 As GroupBox
-    Friend WithEvents RadioButton9 As RadioButton
+    Friend WithEvents rb7 As RadioButton
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
-    Friend WithEvents RadioButton11 As RadioButton
+    Friend WithEvents rb6 As RadioButton
     Friend WithEvents GroupBox7 As GroupBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents RadioButton6 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
+    Friend WithEvents rb4 As RadioButton
+    Friend WithEvents rb5 As RadioButton
     Friend WithEvents GroupBox5 As GroupBox
     Friend WithEvents lblDisplay As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents lblTax As Label
-    Friend WithEvents lblTax1 As Label
-    Friend WithEvents lblSubtotal2 As Label
+    Friend WithEvents lblTax23 As Label
+    Friend WithEvents lblSubtotal23 As Label
     Friend WithEvents Button18 As Button
     Friend WithEvents Button17 As Button
     Friend WithEvents Button16 As Button
@@ -923,7 +926,7 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label63 As Label
+    Friend WithEvents lblTotal23 As Label
     Friend WithEvents lblSubTotal As Label
     Friend WithEvents Label40 As Label
     Friend WithEvents Label32 As Label

@@ -4,6 +4,19 @@ Public Class Form1
     Dim num1, num2 As Decimal
     Dim operan As Integer
     Dim operanselected As Boolean = False
+    Const kilburn = 23.9
+    Const Brixton = 56
+    Const Oxford = 67.23
+    Const Preston = 78
+    Const Tax = 19.75
+    Dim TotalCost As Double
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ComboBox1.Items.Add("Oxford")
+        ComboBox1.Items.Add("Leeds")
+        ComboBox1.Items.Add("Preston")
+        ComboBox1.Items.Add("Kilburn")
+        ComboBox1.Items.Add("Brixton")
+    End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
@@ -150,7 +163,7 @@ Public Class Form1
                 lblDisplay.Text = (num1 * num2).ToString()
             ElseIf operan = 4 Then
 
-                If num1 = 0 Then
+                If num1 = 0 Or num2 = 0 Then
                     lblDisplay.Text = "Error"
                 Else
                     lblDisplay.Text = (num1 / num2).ToString()
@@ -160,6 +173,21 @@ Public Class Form1
 
             End If
             operanselected = False
+        End If
+    End Sub
+
+    Private Sub LabelExit_Click(sender As Object, e As EventArgs) Handles Label38.Click
+        Application.Exit()
+    End Sub
+
+    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
+        If ComboBox1.Text = "Kilburn" And rb1.Checked And rb4.Checked And rb7.Checked Then
+            lblSubtotal23.Text = FormatCurrency(kilburn.ToString())
+            lblTax23.Text = FormatCurrency(Tax.ToString())
+            TotalCost = (kilburn * Tax) / 100
+            lblTotal23.Text = CStr(FormatCurrency(TotalCost + kilburn))
+
+
         End If
     End Sub
 
